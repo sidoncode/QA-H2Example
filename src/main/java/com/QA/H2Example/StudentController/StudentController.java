@@ -1,6 +1,6 @@
 package com.QA.H2Example.StudentController;
 
-import com.QA.H2Example.Student;
+import com.QA.H2Example.Student.Student;
 import com.QA.H2Example.StudentService.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -27,8 +27,8 @@ public class StudentController {
 
     // creating a DELETE mapping that Delete the detail of a specific Student
     @DeleteMapping("/student/{id}")
-    private Student deleteStudent(@PathVariable("id") int id){
-        return studentService.delete(id);
+    private void deleteStudent(@PathVariable("id") int id){
+         studentService.delete(id);
     }
 
     // creating a POST mapping that Post the Student detail to the database

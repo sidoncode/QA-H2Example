@@ -1,6 +1,7 @@
 package com.QA.H2Example.StudentService;
 
-import com.QA.H2Example.Student;
+import com.QA.H2Example.Student.Student;
+import com.QA.H2Example.StudentRepo.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

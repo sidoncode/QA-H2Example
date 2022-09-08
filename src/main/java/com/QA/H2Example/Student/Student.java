@@ -1,4 +1,5 @@
-package com.QA.H2Example;
+package com.QA.H2Example.Student;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;

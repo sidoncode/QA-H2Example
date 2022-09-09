@@ -6,3 +6,10 @@ CREATE TABLE CITY (
     city_pincode int
 );
 
+CREATE TABLE STUDENT (
+    id int NOT NULL,
+    name varchar(255) NOT NULL,
+    age int,
+    email varchar(255)
+);
+

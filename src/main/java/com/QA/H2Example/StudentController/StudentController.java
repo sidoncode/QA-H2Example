@@ -32,7 +32,7 @@ public class StudentController {
     }
 
     // creating a POST mapping that Post the Student detail to the database
-    @PostMapping("/student")
+    @PostMapping("/student") // localhost:8083/student //  endpoint
     private int saveStudent(@RequestBody Student student){
         studentService.saveOrUpdate(student);
         return student.getId();

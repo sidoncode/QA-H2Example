@@ -10,6 +10,7 @@ import javax.persistence.Table;
 public class Student {
 
     @Id // id is the primary key in the database
+
     @Column
     private int id;
 
